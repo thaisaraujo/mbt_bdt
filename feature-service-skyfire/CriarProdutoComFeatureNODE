@@ -1,0 +1,11 @@
+Feature: CriarProtudoComFeature
+
+Scenario: initialize add deleteByName add addFeatureToProduct  
+
+Given initialize
+When add
+And deleteByName
+And add
+And addFeatureToProduct
+
+

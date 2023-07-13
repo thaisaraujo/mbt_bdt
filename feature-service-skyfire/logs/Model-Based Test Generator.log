@@ -1,0 +1,64 @@
+2023-07-04 10:09:30,265 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:392 | Read the specified UML model from .\use\dataTypesExemplos\VendingMachineFSM.uml
+2023-07-04 10:09:30,276 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:81 | Generate abstract test paths from a flat graph
+2023-07-04 10:09:30,290 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:93 | Node coverage is used. The number of total nodes is 5
+2023-07-04 10:09:30,292 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:95 | The test requirements of nodes are: [[3], [4], [2], [1], [5]]
+2023-07-04 10:09:30,292 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:97 | 1 test paths are generated to satisfy node coverage. The total nodes is 7
+2023-07-04 10:09:30,292 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:406 | Generate abstract test paths on the flattened graph
+2023-07-04 10:09:30,292 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateTests:525 | Generate abstract tests
+2023-07-04 10:09:30,294 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:421 | Create Cucumber feature file which is located at CriarProdutoComFeatureNODE
+2023-07-04 10:09:30,301 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:392 | Read the specified UML model from .\use\dataTypesExemplos\VendingMachineFSM.uml
+2023-07-04 10:09:30,301 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:81 | Generate abstract test paths from a flat graph
+2023-07-04 10:09:30,302 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:103 | Edge coverage is used. The number of total edges is 7
+2023-07-04 10:09:30,302 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:104 | The test requirements of edges are: [[3,4], [2,3], [1,2], [3,3], [4,3], [3,2], [4,5]]
+2023-07-04 10:09:30,305 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:110 | 2 test paths are generated to satisfy edge coverage. The total nodes is 15
+2023-07-04 10:09:30,306 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:406 | Generate abstract test paths on the flattened graph
+2023-07-04 10:09:30,308 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateTests:525 | Generate abstract tests
+2023-07-04 10:09:30,309 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:421 | Create Cucumber feature file which is located at CriarProdutoComFeatureEDGE
+2023-07-04 10:09:30,316 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:392 | Read the specified UML model from .\use\dataTypesExemplos\VendingMachineFSM.uml
+2023-07-04 10:09:30,316 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:81 | Generate abstract test paths from a flat graph
+2023-07-04 10:09:30,317 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:116 | Edge-pair coverage is used. The number of total edge-pairs is 13
+2023-07-04 10:09:30,318 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:118 | The test requriements of edge-pairs are: [[3,4,3], [3,4,5], [2,3,4], [2,3,3], [2,3,2], [1,2,3], [3,3,4], [3,3,3], [3,3,2], [4,3,4], [4,3,3], [4,3,2], [3,2,3]]
+2023-07-04 10:09:30,322 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:124 | 1 test paths are generated to satisfy edge-pair coverage. The total nodes is 22
+2023-07-04 10:09:30,323 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:406 | Generate abstract test paths on the flattened graph
+2023-07-04 10:09:30,323 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateTests:525 | Generate abstract tests
+2023-07-04 10:09:30,325 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:421 | Create Cucumber feature file which is located at CriarProdutoComFeatureEDGEPAIR
+2023-07-04 10:09:30,331 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:392 | Read the specified UML model from .\use\dataTypesExemplos\VendingMachineFSM.uml
+2023-07-04 10:09:30,332 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:81 | Generate abstract test paths from a flat graph
+2023-07-04 10:09:30,333 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:135 | Prime path coverage is used. The number of total prime paths is 7
+2023-07-04 10:09:30,333 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:137 | The test requirements of prime paths are: [[1,2,3,4,5], [2,3,2], [3,4,3], [3,2,3], [4,3,2], [4,3,4], [3,3]]
+2023-07-04 10:09:30,334 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:138 | 2 test paths are generated to satisfy prime coverage. The total nodes is 19
+2023-07-04 10:09:30,334 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:406 | Generate abstract test paths on the flattened graph
+2023-07-04 10:09:30,335 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateTests:525 | Generate abstract tests
+2023-07-04 10:09:30,338 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:421 | Create Cucumber feature file which is located at CriarProdutoComFeaturePRIMEPATH
+2023-07-04 10:11:28,521 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:392 | Read the specified UML model from .\use\dataTypesExemplos\VendingMachineFSM.uml
+2023-07-04 10:11:28,522 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:81 | Generate abstract test paths from a flat graph
+2023-07-04 10:11:28,538 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:93 | Node coverage is used. The number of total nodes is 5
+2023-07-04 10:11:28,538 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:95 | The test requirements of nodes are: [[3], [4], [2], [1], [5]]
+2023-07-04 10:11:28,538 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:97 | 1 test paths are generated to satisfy node coverage. The total nodes is 7
+2023-07-04 10:11:28,539 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:406 | Generate abstract test paths on the flattened graph
+2023-07-04 10:11:28,540 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateTests:525 | Generate abstract tests
+2023-07-04 10:11:28,542 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:421 | Create Cucumber feature file which is located at CriarProdutoComFeatureNODE
+2023-07-04 10:11:28,550 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:392 | Read the specified UML model from .\use\dataTypesExemplos\VendingMachineFSM.uml
+2023-07-04 10:11:28,551 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:81 | Generate abstract test paths from a flat graph
+2023-07-04 10:11:28,551 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:103 | Edge coverage is used. The number of total edges is 7
+2023-07-04 10:11:28,552 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:104 | The test requirements of edges are: [[3,4], [2,3], [1,2], [3,3], [4,3], [3,2], [4,5]]
+2023-07-04 10:11:28,553 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:110 | 2 test paths are generated to satisfy edge coverage. The total nodes is 15
+2023-07-04 10:11:28,554 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:406 | Generate abstract test paths on the flattened graph
+2023-07-04 10:11:28,555 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateTests:525 | Generate abstract tests
+2023-07-04 10:11:28,557 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:421 | Create Cucumber feature file which is located at CriarProdutoComFeatureEDGE
+2023-07-04 10:11:28,562 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:392 | Read the specified UML model from .\use\dataTypesExemplos\VendingMachineFSM.uml
+2023-07-04 10:11:28,563 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:81 | Generate abstract test paths from a flat graph
+2023-07-04 10:11:28,563 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:116 | Edge-pair coverage is used. The number of total edge-pairs is 13
+2023-07-04 10:11:28,564 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:118 | The test requriements of edge-pairs are: [[3,4,3], [3,4,5], [2,3,4], [2,3,3], [2,3,2], [1,2,3], [3,3,4], [3,3,3], [3,3,2], [4,3,4], [4,3,3], [4,3,2], [3,2,3]]
+2023-07-04 10:11:28,568 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:124 | 1 test paths are generated to satisfy edge-pair coverage. The total nodes is 22
+2023-07-04 10:11:28,569 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:406 | Generate abstract test paths on the flattened graph
+2023-07-04 10:11:28,570 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateTests:525 | Generate abstract tests
+2023-07-04 10:11:28,572 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:421 | Create Cucumber feature file which is located at CriarProdutoComFeatureEDGEPAIR
+2023-07-04 10:11:28,579 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:392 | Read the specified UML model from .\use\dataTypesExemplos\VendingMachineFSM.uml
+2023-07-04 10:11:28,579 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:81 | Generate abstract test paths from a flat graph
+2023-07-04 10:11:28,581 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:135 | Prime path coverage is used. The number of total prime paths is 7
+2023-07-04 10:11:28,585 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:137 | The test requirements of prime paths are: [[1,2,3,4,5], [2,3,2], [3,4,3], [3,2,3], [4,3,2], [4,3,4], [3,3]]
+2023-07-04 10:11:28,586 | INFO  | AbstractTestGenerator | AbstractTestGenerator:getTestPaths:138 | 2 test paths are generated to satisfy prime coverage. The total nodes is 19
+2023-07-04 10:11:28,586 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:406 | Generate abstract test paths on the flattened graph
+2023-07-04 10:11:28,588 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateTests:525 | Generate abstract tests
+2023-07-04 10:11:28,589 | INFO  | CucumberTestGenerator | CucumberTestGenerator:generateCucumberScenario:421 | Create Cucumber feature file which is located at CriarProdutoComFeaturePRIMEPATH

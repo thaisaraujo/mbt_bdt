@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_OWv5cNmJEeGa16tZvsIA1w" name="Model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_OWv5cdmJEeGa16tZvsIA1w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_OWzj0NmJEeGa16tZvsIA1w" name="StateMachine0">
+    <region xmi:type="uml:Region" xmi:id="_OXBmQNmJEeGa16tZvsIA1w" name="Region0">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_7NGkwNtZEeGbQut3CdTx2Q" annotatedElement="_WGTmINmJEeGa16tZvsIA1w">
+        <body>produtos > 0 &#xD;
+feaures = 0</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_M9grUNtaEeGbQut3CdTx2Q" annotatedElement="_BkAS4NtOEeGbQut3CdTx2Q">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_OjvpUNtaEeGbQut3CdTx2Q">
+          <body>0 &lt; credit &lt; 90
+stock = 0</body>
+        </ownedComment>
+        <body>produtos >= 1&#xD;
+features >= 1</body>
+      </ownedComment>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_4tHQkPxQEeGT0I2oeClwrg" name="ListaProdutosNãoVazia">
+        <specification xmi:type="uml:LiteralString" xmi:id="_4tH3oPxQEeGT0I2oeClwrg" name="produtos" value="produtos >= 1&#xD;&#xA;features = 0"/>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_rVgWQPxQEeGT0I2oeClwrg" name="ListaDeFeaturesNãoVazia">
+        <specification xmi:type="uml:LiteralString" xmi:id="_rViLcPxQEeGT0I2oeClwrg" name="features" value="features >=1"/>
+      </ownedRule>
+      <ownedRule xmi:type="uml:Constraint" xmi:id="_Cjsu4NwKEeGsQfAO8BUOaA" name="ListaProdutosVazia" constrainedElement="_BkAS4NtOEeGbQut3CdTx2Q">
+        <specification xmi:type="uml:LiteralString" xmi:id="_Cj3G8NwKEeGsQfAO8BUOaA" name="produtos" value="produtos=0"/>
+      </ownedRule>
+      <transition xmi:type="uml:Transition" xmi:id="_KfiJ0NtWEeGbQut3CdTx2Q" name="addFeatureToProduct" source="_WGTmINmJEeGa16tZvsIA1w" target="_BkAS4NtOEeGbQut3CdTx2Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_adWRYNtWEeGbQut3CdTx2Q" name="add" source="_VpKXINmJEeGa16tZvsIA1w" target="_WGTmINmJEeGa16tZvsIA1w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_paIZMPgzEeGHgLRm2DTQnQ" name="initialize" source="_TEbwkNmJEeGa16tZvsIA1w" target="_VpKXINmJEeGa16tZvsIA1w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_eOceYPwZEeGT0I2oeClwrg" name="produtos" kind="internal" source="_WGTmINmJEeGa16tZvsIA1w" target="_WGTmINmJEeGa16tZvsIA1w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Yf5qcBpgEe6NR_EorYhb4Q" name="deleteFeatureOfProduct" source="_BkAS4NtOEeGbQut3CdTx2Q" target="_WGTmINmJEeGa16tZvsIA1w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_bQIWYBpgEe6NR_EorYhb4Q" name="deleteByName" source="_WGTmINmJEeGa16tZvsIA1w" target="_VpKXINmJEeGa16tZvsIA1w"/>
+      <transition xmi:type="uml:Transition" xmi:id="_YzA-QBphEe6NR_EorYhb4Q" source="_BkAS4NtOEeGbQut3CdTx2Q" target="_u9l_gBpgEe6NR_EorYhb4Q"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_TEbwkNmJEeGa16tZvsIA1w" name="Initial"/>
+      <subvertex xmi:type="uml:State" xmi:id="_VpKXINmJEeGa16tZvsIA1w" name="ListaDeProdutosVazia"/>
+      <subvertex xmi:type="uml:State" xmi:id="_WGTmINmJEeGa16tZvsIA1w" name="ListaDeProdutosNãoVazia"/>
+      <subvertex xmi:type="uml:State" xmi:id="_BkAS4NtOEeGbQut3CdTx2Q" name="ListaDeFeaturesNãoVazia"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_u9l_gBpgEe6NR_EorYhb4Q" name="FinalState"/>
+    </region>
+  </packagedElement>
+</uml:Model>

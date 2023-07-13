@@ -1,0 +1,10 @@
+POST /products/ESHOP_1/features/VIDEO_LESSONS HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.17)
+Host: localhost:8080
+Accept-Encoding: gzip,deflate
+Connection: Keep-Alive
+Content-Length: 27
+X-Burp-Comment: |
+
+description=aulas+em+videos

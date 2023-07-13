@@ -1,0 +1,26 @@
+Feature: CriarProtudoComFeature
+
+Scenario: initialize add produtos addFeatureToProduct deleteFeatureOfProduct addFeatureToProduct deleteFeatureOfProduct produtos produtos deleteByName add deleteByName add addFeatureToProduct deleteFeatureOfProduct deleteByName add addFeatureToProduct deleteFeatureOfProduct addFeatureToProduct  
+
+Given initialize
+When add
+And produtos
+And addFeatureToProduct
+And deleteFeatureOfProduct
+And addFeatureToProduct
+And deleteFeatureOfProduct
+And produtos
+And produtos
+And deleteByName
+And add
+And deleteByName
+And add
+And addFeatureToProduct
+And deleteFeatureOfProduct
+And deleteByName
+And add
+And addFeatureToProduct
+And deleteFeatureOfProduct
+And addFeatureToProduct
+
+

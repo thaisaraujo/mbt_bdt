@@ -1,0 +1,65 @@
+{
+ "pathCoverage": {
+  "raw": {
+   "documented": 11,
+   "documentedAndTested": 1,
+   "totalTested": 1
+  },
+  "rate": 0.09090909090909091
+ },
+ "operationCoverage": {
+  "raw": {
+   "documented": 18,
+   "documentedAndTested": 1,
+   "totalTested": 1
+  },
+  "rate": 0.05555555555555555
+ },
+ "statusClassCoverage": {
+  "raw": {
+   "documented": 18,
+   "documentedAndTested": 0
+  },
+  "rate": 0.0
+ },
+ "statusCoverage": {
+  "raw": {
+   "documented": 18,
+   "documentedAndTested": 0,
+   "totalTested": 2
+  },
+  "rate": 0.0
+ },
+ "responseTypeCoverage": {
+  "raw": {
+   "documented": 18,
+   "documentedAndTested": 0,
+   "totalTested": 2
+  },
+  "rate": 0.0
+ },
+ "requestTypeCoverage": {
+  "raw": {
+   "documented": 8,
+   "documentedAndTested": 1,
+   "totalTested": 1
+  },
+  "rate": 0.125
+ },
+ "parameterCoverage": {
+  "raw": {
+   "documented": 6,
+   "documentedAndTested": 0,
+   "totalTested": 6
+  },
+  "rate": 0.0
+ },
+ "parameterValueCoverage": {
+  "raw": {
+   "documented": 0,
+   "documentedAndTested": 0
+  },
+  "rate": null
+ },
+ "TCL": 0
+}

@@ -1,0 +1,67 @@
+{
+	"documentedAndTested": {},
+	"documentedAndNotTested": {
+		"/products/{productName}/features": {
+			"get": []
+		},
+		"/products/{productName}/features/{featureName}": {
+			"post": [
+				"description"
+			],
+			"put": [
+				"description"
+			],
+			"delete": []
+		},
+		"/products/{productName}/configurations/{configurationName}/features/{featureName}": {
+			"post": [],
+			"delete": []
+		},
+		"/products/{productName}/configurations/{configurationName}/features": {
+			"get": []
+		},
+		"/products/{productName}/configurations": {
+			"get": []
+		},
+		"/products/{productName}/configurations/{configurationName}": {
+			"get": [],
+			"post": [],
+			"delete": []
+		},
+		"/products/{productName}/constraints/requires": {
+			"post": [
+				"sourceFeature",
+				"requiredFeature"
+			]
+		},
+		"/products/{productName}/constraints/excludes": {
+			"post": [
+				"sourceFeature",
+				"excludedFeature"
+			]
+		},
+		"/products/{productName}/constraints/{constraintId}": {
+			"delete": []
+		},
+		"/products": {
+			"get": []
+		},
+		"/products/{productName}": {
+			"get": [],
+			"post": [],
+			"delete": []
+		}
+	},
+	"notDocumentedAndTested": {
+		"/products/{productName}/features/{featureName}": {
+			"post": [
+				"Content-Type",
+				"User-Agent",
+				"Host",
+				"Accept-Encoding",
+				"Connection",
+				"Content-Length"
+			]
+		}
+	}
+}
