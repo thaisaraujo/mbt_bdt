@@ -1,79 +1,8 @@
 {
 	"documentedAndTested": {},
 	"documentedAndNotTested": {
-		"/products/{productName}/features": {
-			"get": [
-				"200"
-			]
-		},
 		"/products/{productName}/features/{featureName}": {
 			"post": [
-				"default"
-			],
-			"put": [
-				"200"
-			],
-			"delete": [
-				"default"
-			]
-		},
-		"/products/{productName}/configurations/{configurationName}/features/{featureName}": {
-			"post": [
-				"default"
-			],
-			"delete": [
-				"default"
-			]
-		},
-		"/products/{productName}/configurations/{configurationName}/features": {
-			"get": [
-				"200"
-			]
-		},
-		"/products/{productName}/configurations": {
-			"get": [
-				"200"
-			]
-		},
-		"/products/{productName}/configurations/{configurationName}": {
-			"get": [
-				"200"
-			],
-			"post": [
-				"default"
-			],
-			"delete": [
-				"default"
-			]
-		},
-		"/products/{productName}/constraints/requires": {
-			"post": [
-				"default"
-			]
-		},
-		"/products/{productName}/constraints/excludes": {
-			"post": [
-				"default"
-			]
-		},
-		"/products/{productName}/constraints/{constraintId}": {
-			"delete": [
-				"default"
-			]
-		},
-		"/products": {
-			"get": [
-				"200"
-			]
-		},
-		"/products/{productName}": {
-			"get": [
-				"200"
-			],
-			"post": [
-				"default"
-			],
-			"delete": [
 				"default"
 			]
 		}

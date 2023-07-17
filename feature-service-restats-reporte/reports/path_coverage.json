@@ -2,16 +2,5 @@
 	"documentedAndTested": [
 		"/products/{productName}/features/{featureName}"
 	],
-	"documentedAndNotTested": [
-		"/products/{productName}/features",
-		"/products/{productName}/configurations/{configurationName}/features/{featureName}",
-		"/products/{productName}/configurations/{configurationName}/features",
-		"/products/{productName}/configurations",
-		"/products/{productName}/configurations/{configurationName}",
-		"/products/{productName}/constraints/requires",
-		"/products/{productName}/constraints/excludes",
-		"/products/{productName}/constraints/{constraintId}",
-		"/products",
-		"/products/{productName}"
-	]
+	"documentedAndNotTested": []
 }

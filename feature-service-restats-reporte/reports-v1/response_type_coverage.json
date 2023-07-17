@@ -1,0 +1,89 @@
+{
+	"documentedAndTested": {},
+	"documentedAndNotTested": {
+		"/products/{productName}/features": {
+			"get": [
+				"application/json"
+			]
+		},
+		"/products/{productName}/features/{featureName}": {
+			"post": [
+				"application/json"
+			],
+			"put": [
+				"application/json"
+			],
+			"delete": [
+				"application/json"
+			]
+		},
+		"/products/{productName}/configurations/{configurationName}/features/{featureName}": {
+			"post": [
+				"application/json"
+			],
+			"delete": [
+				"application/json"
+			]
+		},
+		"/products/{productName}/configurations/{configurationName}/features": {
+			"get": [
+				"application/json"
+			]
+		},
+		"/products/{productName}/configurations": {
+			"get": [
+				"application/json"
+			]
+		},
+		"/products/{productName}/configurations/{configurationName}": {
+			"get": [
+				"application/json"
+			],
+			"post": [
+				"application/json"
+			],
+			"delete": [
+				"application/json"
+			]
+		},
+		"/products/{productName}/constraints/requires": {
+			"post": [
+				"application/json"
+			]
+		},
+		"/products/{productName}/constraints/excludes": {
+			"post": [
+				"application/json"
+			]
+		},
+		"/products/{productName}/constraints/{constraintId}": {
+			"delete": [
+				"application/json"
+			]
+		},
+		"/products": {
+			"get": [
+				"application/json"
+			]
+		},
+		"/products/{productName}": {
+			"get": [
+				"application/json"
+			],
+			"post": [
+				"application/json"
+			],
+			"delete": [
+				"application/json"
+			]
+		}
+	},
+	"notDocumentedAndTested": {
+		"/products/{productName}/features/{featureName}": {
+			"post": [
+				"application/octet-stream",
+				"text/html"
+			]
+		}
+	}
+}

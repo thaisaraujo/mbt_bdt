@@ -7,56 +7,10 @@
 		}
 	},
 	"documentedAndNotTested": {
-		"/products/{productName}/features": {
-			"get": []
-		},
 		"/products/{productName}/features/{featureName}": {
 			"post": [
 				"multipart/form-data"
-			],
-			"put": [
-				"application/x-www-form-urlencoded",
-				"multipart/form-data"
-			],
-			"delete": []
-		},
-		"/products/{productName}/configurations/{configurationName}/features/{featureName}": {
-			"post": [],
-			"delete": []
-		},
-		"/products/{productName}/configurations/{configurationName}/features": {
-			"get": []
-		},
-		"/products/{productName}/configurations": {
-			"get": []
-		},
-		"/products/{productName}/configurations/{configurationName}": {
-			"get": [],
-			"post": [],
-			"delete": []
-		},
-		"/products/{productName}/constraints/requires": {
-			"post": [
-				"application/x-www-form-urlencoded",
-				"multipart/form-data"
 			]
-		},
-		"/products/{productName}/constraints/excludes": {
-			"post": [
-				"application/x-www-form-urlencoded",
-				"multipart/form-data"
-			]
-		},
-		"/products/{productName}/constraints/{constraintId}": {
-			"delete": []
-		},
-		"/products": {
-			"get": []
-		},
-		"/products/{productName}": {
-			"get": [],
-			"post": [],
-			"delete": []
 		}
 	},
 	"notDocumentedAndTested": {}

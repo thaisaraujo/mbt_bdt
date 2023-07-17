@@ -1,0 +1,131 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"_postman_id": "0e7ff1e6-dc12-4c19-881d-9f35b642f6f2",
+		"name": "Feature Service Refatorado",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6536231"
+	},
+	"item": [
+		{
+			"name": "products",
+			"item": [
+				{
+					"name": "{productName}",
+					"item": [
+						{
+							"name": "features",
+							"item": [
+								{
+									"name": "{featureName}",
+									"item": [
+										{
+											"name": "add Feature To Product",
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "multipart/form-data"
+													}
+												],
+												"body": {
+													"mode": "formdata",
+													"formdata": [
+														{
+															"key": "description",
+															"value": "<string>",
+															"type": "text"
+														}
+													]
+												},
+												"url": {
+													"raw": "{{baseUrl}}/products/:productName/features/:featureName",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"products",
+														":productName",
+														"features",
+														":featureName"
+													],
+													"variable": [
+														{
+															"key": "productName",
+															"value": "<string>"
+														},
+														{
+															"key": "featureName",
+															"value": "<string>"
+														}
+													]
+												}
+											},
+											"response": [
+												{
+													"name": "successful operation",
+													"originalRequest": {
+														"method": "POST",
+														"header": [
+															{
+																"key": "Content-Type",
+																"value": "multipart/form-data"
+															}
+														],
+														"body": {
+															"mode": "formdata",
+															"formdata": [
+																{
+																	"key": "description",
+																	"value": "<string>",
+																	"type": "text"
+																}
+															]
+														},
+														"url": {
+															"raw": "{{baseUrl}}/products/:productName/features/:featureName",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"products",
+																":productName",
+																"features",
+																":featureName"
+															],
+															"variable": [
+																{
+																	"key": "productName"
+																},
+																{
+																	"key": "featureName"
+																}
+															]
+														}
+													},
+													"status": "Internal Server Error",
+													"code": 500,
+													"_postman_previewlanguage": "text",
+													"header": [],
+													"cookie": [],
+													"body": ""
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:8080"
+		}
+	]
+}
